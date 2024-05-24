@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile-section {
+    text-align: center;
+    padding: 80px;
+    background: #ff7eb9;
+    color: #fff;
+}
+
+.profile-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -75px;
+}
+
+.profile-section h1 {
+    margin: 10px 0 5px;
+}
+
+.profile-section .npm {
+    font-size: 1.2em;
+}
+
+.content-section {
+    padding: 20px;
+}
+
+.content-section h2 {
+    color: #ff7eb9;
+    border-bottom: 2px solid #ff7eb9;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: #ff7eb9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.profile-section,
+.content-section {
+    animation: fadeIn 2s ease-in-out;
+}
